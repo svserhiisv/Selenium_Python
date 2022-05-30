@@ -11,7 +11,7 @@ try:
     input1 = browser.find_element(By.CSS_SELECTOR, "#id-l")
     input1.send_keys("simochenko_s")
     input2 = browser.find_element(By.CSS_SELECTOR, "#id-p")
-    input2.send_keys("35750185Zz")
+    input2.send_keys("")
     button = browser.find_element_by_css_selector(".form__submit")
     button.click()
 
